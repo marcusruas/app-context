@@ -4,11 +4,10 @@ import reportWebVitals from './services/reportWebVitals';
 
 import App from './ui';
 import 'antd/dist/antd.css';
+import 'antd/dist/antd.less';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 

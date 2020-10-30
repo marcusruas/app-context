@@ -11,6 +11,8 @@
     .appContainer__cabecalho {
         width: 100%;
         height: 20%;
+        position: fixed;
+        z-index: 1;
         background-color: #ffd666;
         
         .appContainer__cabecalho__titulo {
@@ -44,5 +46,9 @@
                 }
             }
         }
+    }
+
+    .appContainer__tabela {
+        height: 80%;
     }
 }
